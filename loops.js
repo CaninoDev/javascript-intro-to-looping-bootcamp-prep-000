@@ -23,7 +23,11 @@ function maybeTrue() {
 function doWhileLoop(array) {
   do {
     array.pop();
+<<<<<<< HEAD
   } while (maybeTrue() && array.length === 0)
+=======
+  } while (maybeTrue() && array.length > 0)
+>>>>>>> e56c67eddd31677b787aef9f53c4dae8f699d0e1
   return array
 }
 
